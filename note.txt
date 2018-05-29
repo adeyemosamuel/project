@@ -1,0 +1,10 @@
+
+npm install -g @angular/cli
+ng new amazon --routing --style=scss
+npm install @ng-bootstrap/ng-bootstrap
+ng generate component home
+ng generate service RestApi
+ng generate service Data
+ng generate component Message
+npm install bcrypt-nodejs --save
+[Angular] there's no directive with "exportAs" set to "ngbDropdown"
