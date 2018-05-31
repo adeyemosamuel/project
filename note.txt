@@ -7,4 +7,22 @@ ng generate service RestApi
 ng generate service Data
 ng generate component Message
 npm install bcrypt-nodejs --save
+npm install jsonwebtoken --save
 [Angular] there's no directive with "exportAs" set to "ngbDropdown"
+
+
+<section id="registrationPage">
+  <div class="container p-5">
+    <div class="row mt-5">
+      <div class="col-lg-4 offset-lg-4">
+        <app-message></app-message>
+        <div class="card bg-light">
+          <div class="card-body">
+            <h4 class="text-center">Registration</h4>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -27,11 +27,14 @@ app.use(cors());
 
 //Http Route or API
 
-app.get('/',(req, res, next)=>{
-    res.json({
-user:'Prof. Fixit'
-    });
-});
+// app.get('/',(req, res, next)=>{
+//     res.json({
+// user:'Prof. Fixit'
+//     });
+// });
+
+const userRoutes = require('./routes/account');
+app.use('/api/accounts', userRoutes);
 
 //Cross Origin resource sharing CORS
 
